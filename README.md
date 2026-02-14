@@ -1,0 +1,41 @@
+<p align="center">
+ <picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/logo-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset=".github/logo-light.png">
+  <img alt="Descrição da imagem" src="./github/logo-light.png">
+</picture>
+</p>
+
+<p align="center">
+Aplicação desenvolvida na Formação Fullstack da Rocketseat.
+</p>
+
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=1F8459&labelColor=00292E">
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="Preview do projeto desenvolvido." src=".github/preview.png" width="60%">
+</p>
+
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- Vite
+- React
+- CSS Modules
+- TypeScript
+
+## Projeto
+
+Nesse projeto iremos desenvolver uma aplicação de Adivinhar palavras
