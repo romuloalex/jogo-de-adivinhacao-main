@@ -1,21 +1,36 @@
+<!-- Define o tipo de documento como HTML5 -->
 <!doctype html>
+<!-- Raiz do documento HTML. O atributo lang informa o idioma principal da página aos navegadores e leitores de tela. -->
 <html lang="en">
   <head>
+    <!-- Define o conjunto de caracteres como UTF-8, permitindo acentos e caracteres especiais corretamente. -->
     <meta charset="UTF-8" />
+
+    <!-- Define o ícone (favicon) exibido na aba do navegador. -->
     <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+
+    <!-- Configura o viewport para layout responsivo em dispositivos móveis. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Otimiza a conexão com o servidor de fontes do Google antes de carregar as fontes. -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- Segunda conexão prévia para o domínio de fontes estáticas, com credenciais cruzadas permitidas. -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Importa a família de fontes "Noto Sans" do Google Fonts para ser usada em toda a aplicação. -->
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
 
+    <!-- Título da aba do navegador, exibido na barra de título e em favoritos. -->
     <title>Adivinhe</title>
   </head>
   <body>
+    <!-- Elemento raiz onde o React irá montar a aplicação (conectado em src/main.tsx). -->
     <div id="root"></div>
+
+    <!-- Script principal que inicia a aplicação React usando módulo ES (TypeScript compilado). -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
